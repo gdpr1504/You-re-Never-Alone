@@ -1,0 +1,8 @@
+{
+  "name": "youareneveraloneapp",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">youareneveraloneapp</string>
+    <string name="title_activity_main">youareneveraloneapp</string>
+    <string name="package_name">com.youareneveralone.push</string>
+    <string name="custom_url_scheme">com.youareneveralone.push</string>
+</resources>

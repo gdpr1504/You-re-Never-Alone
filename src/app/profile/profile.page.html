@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>feed</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-item *ngFor="let item of items">
+      {{item['name']}}--{{item['latitude']}}
+    </ion-item>
+    {{name}}
+    {{desc}}
+    <img *ngIf="imageUrl" src="https://ucarecdn.com/{{ imageUrl }}/" />
+
+</ion-content>

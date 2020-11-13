@@ -1,0 +1,46 @@
+<ion-header>
+  <div class="center">
+  <ion-toolbar color="never">
+    <ion-title color="light">Registration</ion-title>
+    </ion-toolbar>
+    </div>
+</ion-header>
+
+
+<ion-content padding>
+  <br>
+  <div class="center">
+    <img src="assets/images/logomp.png" class="smallLogo"/>
+  </div>
+    <ion-list>
+        <ion-item>
+            <ion-label position="floating">Username</ion-label>
+            <ion-input type="text" [(ngModel)]="username" required="true"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Password</ion-label>
+          <ion-input type="password" [(ngModel)]="password" required="true"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Confirm Password</ion-label>
+          <ion-input type="password" [(ngModel)]="cpassword" required="true"></ion-input>
+
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Phone Number</ion-label>
+          <ion-input type="tel" [(ngModel)]="phonenumber" required="true"></ion-input>
+        </ion-item>
+    <ion-item>
+      <ion-label position="floating">Profile Photo</ion-label> <br><br>
+    <input type="file" *ngIf="!imageURL" (change)="fileChanged($event)"/>
+    <ion-card>
+      <img *ngIf="imageURL" src="https://ucarecdn.com/{{ imageURL }}/" />
+      </ion-card>
+    </ion-item>
+    <ion-button fill="solid" expand="block" color="success" (click)="register()">Sign Up</ion-button>
+  
+    <ion-item lines='none'>
+      Already have an account? <a routerLink='/login'>Sign in.</a>
+    </ion-item>  
+  </ion-list>
+</ion-content>

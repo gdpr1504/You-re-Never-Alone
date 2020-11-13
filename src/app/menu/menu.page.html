@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar color='never'>
+    <ion-title class="center">Emergency</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content fullscreen class="ion-padding">
+  <div class="container">
+    <ion-button expand="block" color="primary" (click)="captureAndSave()">Capture Media</ion-button>
+<br>
+<!-- Round -->
+<ion-button size="large" color="success" class="centr" (click)="Location('none')">Emergency</ion-button>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<ion-button shape="round"color="danger" size="small" class="others" (click)="Location('accident')">
+  <ion-icon slot="end" name="car"></ion-icon>
+  accident
+</ion-button><br>
+<ion-button shape="round"color="danger" size="small" class="others" (click)="Location('danger')">
+  danger
+  <ion-icon slot="end" name="warning"></ion-icon>
+</ion-button>
+  <script src="https://js.api.here.com/v3/3.1/mapjs-core.js" type="text/javascript" charset="utf-8"></script>
+
+  </div>
+  </ion-content>

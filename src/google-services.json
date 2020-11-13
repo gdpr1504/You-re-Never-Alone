@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "31929263726",
+    "firebase_url": "https://you-re-never-alone-1a199.firebaseio.com",
+    "project_id": "you-re-never-alone-1a199",
+    "storage_bucket": "you-re-never-alone-1a199.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31929263726:android:0ee429ba228a6a6f10687f",
+        "android_client_info": {
+          "package_name": "com.youareneveraloneapp.push"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31929263726-pud6nesat7le14amn7ekfudg5f77atpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfew4NHnfL4zM50k2ZZ5oJ834tD_h0ls8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "31929263726-pud6nesat7le14amn7ekfudg5f77atpa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

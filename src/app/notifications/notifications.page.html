@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Notifications</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item text-wrap *ngFor="let item of items">
+    <ion-avatar slot="start">
+      <img src="https://ucarecdn.com/{{ item['image'] }}/" />
+    </ion-avatar>
+    <br>
+    Name: {{ item['name']}} <br>
+    Phone No: {{item['phonenumber']}}<br>
+    Time: {{ item['time']}}<br>
+    <ion-button fill="solid" expand="block" color="dark" (click)="navigate(item['latitude'],item['longitude'])">Navigate</ion-button><br>
+    <ion-button fill="solid" expand="block" color="dark" *ngIf="image" (click)="disimage(image)">Image</ion-button>
+    <br>
+    
+  </ion-item>
+</ion-content>

@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["1JvxY"]); }
+
+__d("PrivacyNotificationRootQuery$Parameters",[],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:"3294242920688947",metadata:{relayPreloadable:!0},name:"PrivacyNotificationRootQuery",operationKind:"query",text:null}};e.exports=a}),null);
+__d("PrivacyNotificationRootEntryPoint.entrypoint",["JSResource","WebPixelRatio","PrivacyNotificationRootQuery$Parameters"],(function(a,b,c,d,e,f){"use strict";a={getPreloadProps:function(a){a=a.routeProps.notif_id;return{queries:{privacyNotificationQueryReference:{parameters:b("PrivacyNotificationRootQuery$Parameters"),variables:{notif_id:a,scale:b("WebPixelRatio").get()}}}}},root:b("JSResource")("PrivacyNotificationRoot.react").__setRef("PrivacyNotificationRootEntryPoint.entrypoint")};e.exports=a}),null);
